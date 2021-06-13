@@ -1,23 +1,23 @@
-# Unistylus Icons
+# Unistylus Material Icons
 
 Icons from: [Material Design icons v5.9.55](https://materialdesignicons.com/)
 
 Url to an icon:
 
 ```html
-https://unpkg.com/@lamnhan/unistylus-icons@latest/[icon_pack]/[skin]/[name].svg
+https://unpkg.com/@unistylus/material-icons@latest/[skin]/[name].svg
 ```
 
 Icon usage:
 
 ```scss
-@import '@lamnhan/unistylus/scss/mixins';
+@import '@unistylus/core/mixins';
 
 $light_theme_icons: (
-  menu: '#{$bootstrap_icons}/light/list.svg'
+  menu: '#{$material_icons}/light/list.svg'
 );
 ```
 
 ## License
 
-**@lamnhan/unistylus-icons** is released under the [MIT](https://github.com/lamnhan/unistylus-icons/blob/master/LICENSE) license.
+**@unistylus/material-icons** is released under the [MIT](https://github.com/unistylus/material-icons/blob/master/LICENSE) license.
